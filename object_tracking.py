@@ -2,11 +2,11 @@ import cv2
 import numpy as np
 
 # Load template image
-template = cv2.imread('C:/Users/preet/OneDrive/Desktop/dsp_project/image.png', 0)  # Load in grayscale
+template = cv2.imread('path.png', 0)  # Load in grayscale
 w, h = template.shape[::-1]
 
 # Load the video
-video = cv2.VideoCapture( 'C:/Users/preet/OneDrive/Desktop/dsp_project/video.mp4')  # Replace 'video_file.mp4' with the path to your video
+video = cv2.VideoCapture( 'path.mp4')  # Replace 'video_file.mp4' with the path to your video
 
 # Set the threshold for detection accuracy
 threshold = 0.8
